@@ -6,12 +6,18 @@ namespace Lab_12_dodawanie
     {
         static void Main(string[] args)
         {
-            Double a, b;
+            Double a, b, c;
+
             Console.WriteLine("Podaj pierwszą liczbę ");
             a = Double.Parse(Console.ReadLine());
+
             Console.WriteLine("Podaj drugą liczbę ");
             b = Double.Parse(Console.ReadLine());
-            Console.WriteLine("Suma podanych liczb to: "+(a+b));
+
+            Console.WriteLine("Podaj trzecią liczbę ");
+            c = Double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Suma podanych liczb to: "+(a+b+c));
         }
     }
 }
